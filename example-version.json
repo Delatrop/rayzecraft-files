@@ -1,0 +1,42 @@
+{
+  "Version": "1.0.1",
+  "Description": "Versão de teste do RayzeCraft",
+  "ReleaseDate": "2025-01-09T00:00:00Z",
+  "MinecraftVersion": "1.12.2",
+  "ForgeVersion": "14.23.5.2854",
+  "Files": [
+    {
+      "Path": "modpack.zip",
+      "Url": "https://example.com/modpack.zip",
+      "Hash": "d4f8b7c9e2a1b6c5d9f8e7a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2",
+      "Size": 52428800,
+      "IsRequired": true,
+      "Type": "archive",
+      "Description": "Modpack completo do RayzeCraft"
+    },
+    {
+      "Path": "config/server.properties",
+      "Url": "https://example.com/server.properties",
+      "Hash": "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+      "Size": 2048,
+      "IsRequired": true,
+      "Type": "config",
+      "Description": "Configurações do servidor"
+    },
+    {
+      "Path": "mods/exemplo-mod.jar",
+      "Url": "https://example.com/exemplo-mod.jar",
+      "Hash": "b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3",
+      "Size": 1048576,
+      "IsRequired": true,
+      "Type": "mod",
+      "Description": "Mod de exemplo"
+    }
+  ],
+  "RequiredMods": [
+    "JEI",
+    "Biomes O' Plenty",
+    "Tinkers' Construct",
+    "Iron Chests"
+  ]
+}
